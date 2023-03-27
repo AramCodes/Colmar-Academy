@@ -1,6 +1,8 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
+
+/*Header*/
 
 header {
     display: flex;
@@ -48,6 +50,8 @@ header {
     cursor: pointer;
 }
 
+/*First Section*/
+
 .first-section {
     display: flex;
     align-items: center;
@@ -76,4 +80,81 @@ header {
     background-color: #48494A;
     color: white;
     padding: 1em 9.5em;
+}
+
+/*Second Section*/
+
+.second-section {
+    display: flex;
+}
+
+.second-section img {
+    margin: 2em 1.5em;
+    width: 60%;
+}
+
+.second-section h2{
+    display: inline-flex;
+    color: #48494A;
+    margin: 0.5em;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.second-section p {
+    font-size: 1.25rem;
+    margin: 1.125em;
+    max-width: 55%;
+}
+
+.second-section span {
+    margin-left: 1.123em;
+    margin-bottom: 2em;
+    font-size: 1.5rem;
+}
+
+div.first-row {
+    margin: 0;
+}
+
+.second-row {
+    border-left: 2px solid lightgray;
+    width: 40%;
+}
+
+.card {
+    display: flex;
+}
+
+.card img {
+    width: 35%;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.split h3 {
+    font-size: 2rem;
+    color: #48494A;
+    margin: .9em .1em;
+}
+
+.split p {
+    display: inline;
+    margin: 0 .1em;
+    max-width: 100%;
+}
+
+.split a {
+    margin: 1em .1em;
+    font-size: 1.5rem;
+    color: #87adeb;
+    text-decoration: none;
+}
+
+.special {
+    background-color: lightgray;
 }
