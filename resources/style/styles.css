@@ -86,18 +86,19 @@ header {
 
 .second-section {
     display: flex;
+
 }
 
 .second-section img {
     margin: 2em 1.5em;
-    width: 60%;
+    width: 95%;
 }
 
 .second-section h2{
     display: inline-flex;
     color: #48494A;
     margin: 0.5em;
-    font-size: 3.5rem;
+    font-size: 4.25rem;
     font-weight: bolder;
 }
 
@@ -111,10 +112,6 @@ header {
     margin-left: 1.123em;
     margin-bottom: 2em;
     font-size: 1.5rem;
-}
-
-div.first-row {
-    margin: 0;
 }
 
 .second-row {
@@ -157,4 +154,5 @@ div.first-row {
 
 .special {
     background-color: lightgray;
+    margin-bottom: 5.5rem;
 }
